@@ -42,6 +42,15 @@ Support Discord: https://discord.gg/CUPvkc87CY
 
 The dashboard shows both, filled in with your own name and link, before you save.
 
+## The bot activity
+
+While your server holds the slot the bot also carries an activity — **Playing on
+`https://discord.gg/yourcode`** — shown next to its name in every member list, so the
+sponsorship is visible without opening the bot profile.
+
+The activity is removed when the window runs out, when the slot is released early, and
+at every restart: the same moments that restore the default description.
+
 ---
 
 ## Configuration

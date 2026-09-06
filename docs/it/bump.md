@@ -45,6 +45,15 @@ Support Discord: https://discord.gg/CUPvkc87CY
 La dashboard mostra entrambe, gia' riempite con il tuo nome e il tuo link, prima che
 tu salvi.
 
+## L'attivita' del bot
+
+Mentre il tuo server occupa lo slot, il bot mostra anche un'attivita' — **Playing
+on `https://discord.gg/iltuocodice`** — accanto al suo nome in ogni elenco membri,
+cosi' la sponsorizzazione si vede senza aprire il profilo del bot.
+
+L'attivita' viene rimossa alla scadenza della finestra, al rilascio anticipato dello
+slot e a ogni riavvio: gli stessi momenti in cui torna la descrizione predefinita.
+
 ---
 
 ## Configurazione

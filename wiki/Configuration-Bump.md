@@ -64,6 +64,10 @@ Support Discord: https://discord.gg/CUPvkc87CY
 
 The panel previews both with your own values filled in before you save.
 
+While the slot is yours the bot also shows **Playing on `https://discord.gg/yourcode`**
+as its activity, next to its name in every member list. It is cleared together with the
+description — on expiry, on early release, and at every restart.
+
 ---
 
 ## The XP reward

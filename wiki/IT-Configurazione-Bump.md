@@ -65,6 +65,10 @@ Support Discord: https://discord.gg/CUPvkc87CY
 
 Il pannello mostra l'anteprima di entrambe con i tuoi valori già dentro, prima che salvi.
 
+Mentre lo slot è tuo, il bot mostra anche **Playing on `https://discord.gg/iltuocodice`**
+come attività, accanto al suo nome in ogni elenco membri. Viene rimossa insieme alla
+descrizione: alla scadenza, al rilascio anticipato e a ogni riavvio.
+
 ---
 
 ## Il premio in XP
