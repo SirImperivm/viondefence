@@ -92,6 +92,34 @@ rimosso in silenzio.
 
 Richiede il piano **Pro**.
 
+### Livelli
+
+Il sistema di XP e livelli: quanto valgono un messaggio e un minuto in vocale, quali
+canali contano, quanto costa ogni livello e cosa assegna ciascuno.
+
+La curva dei livelli si scrive come **formula** — la dashboard mostra i primi dieci
+livelli che produce mentre scrivi, così una curva inutilizzabile viene intercettata
+prima del salvataggio. Sotto la configurazione stanno i **premi** (un ruolo e una
+gratifica testuale per livello) e la **classifica** di chi ha guadagnato di più.
+
+Dettagli completi: [Sistema di livelli](livelli.md).
+
+Incluso dal piano **Free**.
+
+### Bump ME
+
+Ha una voce sua sotto *Promozione*, perché non configura il tuo server: configura il
+modo in cui il bot lo pubblicizza altrove.
+
+`/bump` scrive il nome e l'invito del tuo server nella **descrizione Discord del bot**
+per una finestra estratta a caso tra 12 e 24 ore. Può occuparla un server per volta. Il
+pannello mostra se lo slot è libero, entrambe le versioni della descrizione così come
+si leggeranno, e gli ultimi dieci bump del tuo server.
+
+Dettagli completi: [Bump ME](bump.md).
+
+Richiede il piano **Basic**.
+
 ### Cronologia
 
 Tutte le sanzioni mai emesse sul server, filtrabili. Da qui puoi:
@@ -121,7 +149,8 @@ funzionino entrambi.
 ## Piani
 
 Alcune funzioni e alcuni limiti — quanti template di canale, quanti pannelli ticket,
-quali categorie di log — dipendono dal piano associato al server.
+quanti premi dei livelli, quali categorie di log — dipendono dal piano associato al
+server.
 
 Piani attuali e cosa include ciascuno: https://viondefence.com/pricing
 

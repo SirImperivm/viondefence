@@ -91,6 +91,34 @@ The DM can be turned off, in which case the message is removed silently.
 
 Requires the **Pro** plan.
 
+### Levels
+
+The XP and level system: how much a message and a minute in voice are worth, which
+channels count, how expensive each level is, and what each level hands out.
+
+The level curve is written as a **formula** — the dashboard shows the first ten levels
+it produces as you type, so an unusable curve is caught before it is saved. Below the
+configuration sit the **rewards** (a role and a written reward per level) and the
+**leaderboard** of who has earned the most.
+
+Full detail: [Level system](levels.md).
+
+Included from the **Free** plan.
+
+### Bump ME
+
+Its own entry under *Promotion*, because it does not configure your server — it
+configures how the bot advertises it everywhere else.
+
+`/bump` writes your server name and invite into the **bot's own Discord description**
+for a window drawn at random between 12 and 24 hours. Only one server at a time can
+hold it. The panel shows whether the slot is free, both versions of the description as
+they will read, and the last ten bumps of your server.
+
+Full detail: [Bump ME](bump.md).
+
+Requires the **Basic** plan.
+
 ### History
 
 Every sanction ever issued on the server, filterable. From here you can:
@@ -119,7 +147,7 @@ either works.
 ## Plans
 
 Some features and some limits — how many channel templates, how many ticket panels,
-which log categories — depend on the plan attached to a server.
+how many level rewards, which log categories — depend on the plan attached to a server.
 
 Current plans and what each includes: https://viondefence.com/pricing
 

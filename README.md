@@ -3,8 +3,8 @@
 **English** · [Italiano](docs/it/README.md)
 
 **VionDefence** is a Discord bot for server owners who want moderation, tickets,
-temporary voice channels and automod in one place — configured from a web dashboard
-instead of a wall of slash commands.
+temporary voice channels, automod and an XP level system in one place — configured
+from a web dashboard instead of a wall of slash commands.
 
 > This repository contains the **public documentation only**. The bot and website
 > source code are not published here.
@@ -26,6 +26,8 @@ Italian. The pages below are the full reference.
 | [Commands](docs/commands.md) | Full slash command reference |
 | [Moderation](docs/moderation.md) | Sanctions, durations, warn escalation, history |
 | [Automod](docs/automod.md) | Anti-flood, anti-advertising, anti-insult |
+| [Level system](docs/levels.md) | XP, the level curve, rewards, leaderboard |
+| [Bump ME](docs/bump.md) | Sponsor your server in the bot description |
 | [Temporary voice channels](docs/voice-channels.md) | Channel templates and private rooms |
 | [Tickets](docs/tickets.md) | Panels, forms, teams, transcripts |
 | [Logs](docs/logs.md) | Log categories and channel routing |
@@ -51,7 +53,14 @@ their room (name, user limit, privacy, trust/kick/ban) from a button panel or th
 **Tickets** — configurable ticket panels with custom open forms, separate
 user/support/admin teams, claim and release, and HTML transcripts on close.
 
-**Logging** — eight independent log categories, each with its own destination
+**Levels** — members earn XP by writing and by sitting in voice, on the channels you
+choose. The cost of each level is a formula you write, and each level can hand out a
+role or a written reward. `/level` and `/userinfo` show where anyone stands.
+
+**Bump ME** — `/bump` puts your server name and invite into the bot's own Discord
+description for 12 to 24 hours, one server at a time across the whole bot.
+
+**Logging** — eleven independent log categories, each with its own destination
 channel, embed color and thumbnail.
 
 **Localization** — the bot and the dashboard are available in English (`en-US`)

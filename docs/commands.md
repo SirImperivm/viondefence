@@ -231,6 +231,10 @@ banned on Discord with no recorded sanction, a lingering mute role, or a timeout
 sanction Discord is no longer applying — so those can be fixed instead of silently
 drifting.
 
+On servers running the [level system](levels.md) the embed also carries a **Level**
+field: the level, the total XP, the rank and the XP missing for the next level. Where
+the system is off the field is left out entirely, rather than showing an empty ladder.
+
 Its color follows the per-sanction colors configured in the dashboard, picking the
 most severe sanction still active on the user.
 
@@ -338,6 +342,36 @@ See [Tickets](tickets.md) for how panels, teams and transcripts work.
 
 ---
 
+## Levels and promotion
+
+### `/level`
+
+The level card of a member: their level out of the last one, their total XP, their
+rank on the server, and a progress bar towards the next level with the XP still
+missing. The footer counts the messages and the voice minutes that got them there.
+
+| Option | Required | Description |
+|---|---|---|
+| `user` | no | The member to look up. Defaults to whoever ran the command |
+
+Answers that the system is disabled on servers where the level system is off, and
+refuses bots, which never earn XP. See [Level system](levels.md).
+
+### `/bump`
+
+Puts this server in the **bot's own Discord description** — name and invite link — for
+a window drawn at random between 12 and 24 hours.
+
+Takes no options: what gets written is set once in the dashboard.
+
+Only **one server at a time** across the whole bot can hold the slot. While it is
+taken, the command answers with when it frees up. Running it can also pay XP, if the
+dashboard sets a reward and the level system is on.
+
+Requires the **Basic** plan. See [Bump ME](bump.md).
+
+---
+
 ## Utility
 
 ### `/ping`
@@ -380,6 +414,8 @@ member needs the permission **and** one of the roles. Setting the permission to
 | `/bulkdelete` | yes | Manage Messages |
 | `/channel-templates` | yes | Manage Channels |
 | `/voice` | yes | none — everyone |
+| `/level` | yes | none — everyone |
+| `/bump` | yes | none — everyone |
 | `/ticket` | yes | none — everyone |
 | `/ping` | **no** | none — everyone |
 

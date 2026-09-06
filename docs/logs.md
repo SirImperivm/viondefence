@@ -3,7 +3,7 @@
 **English** · [Italiano](it/log.md)
 
 VionDefence writes an embed to Discord for everything it does. Logging is split into
-**nine independent categories**, each routed to its own channel and styled on its own.
+**eleven independent categories**, each routed to its own channel and styled on its own.
 
 Configure them in the dashboard under **Logs**.
 
@@ -22,6 +22,8 @@ Configure them in the dashboard under **Logs**.
 | **Automod** | Anti-flood and anti-advertising violations |
 | **Automod AI** | Anti-insult violations only |
 | **Content filter** | Messages removed because their content is not allowed in that channel |
+| **Verification** | Members gated on join, verifications completed, deadlines expired |
+| **Levels** | Level-ups, reward roles that could not be handed out, bumps and their expiry |
 
 **Automod AI** is deliberately separate from **Automod**: AI verdicts are the ones you
 want to review by hand, and mixing them with mechanical flood detections buries them.

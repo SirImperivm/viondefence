@@ -3,7 +3,7 @@
 [English](../logs.md) · **Italiano**
 
 VionDefence scrive un embed su Discord per ogni cosa che fa. Il logging è diviso in
-**nove categorie indipendenti**, ognuna instradata sul proprio canale e con il proprio
+**undici categorie indipendenti**, ognuna instradata sul proprio canale e con il proprio
 stile.
 
 Si configurano nella dashboard sotto **Log**.
@@ -23,6 +23,8 @@ Si configurano nella dashboard sotto **Log**.
 | **Automod** | Violazioni di anti-flood e anti-pubblicità |
 | **Automod AI** | Solo le violazioni dell'anti-insulti |
 | **Filtro contenuti** | Messaggi rimossi perché il loro contenuto non è consentito in quel canale |
+| **Verifica** | Membri bloccati all'ingresso, verifiche completate, scadenze superate |
+| **Livelli** | Passaggi di livello, ruoli premio non assegnabili, bump e loro scadenza |
 
 **Automod AI** è tenuta apposta separata da **Automod**: i verdetti dell'AI sono quelli
 che vorrai rivedere a mano, e mescolarli con le rilevazioni meccaniche di flood li

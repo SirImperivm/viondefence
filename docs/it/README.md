@@ -3,8 +3,8 @@
 [English](../../README.md) · **Italiano**
 
 **VionDefence** è un bot Discord per chi gestisce un server e vuole moderazione,
-ticket, canali vocali temporanei e automod in un posto solo — configurati da una
-dashboard web invece che da una sfilza di comandi slash.
+ticket, canali vocali temporanei, automod e un sistema di livelli a XP in un posto solo
+— configurati da una dashboard web invece che da una sfilza di comandi slash.
 
 > Questa repository contiene **solo la documentazione pubblica**. Il codice sorgente
 > del bot e del sito non è pubblicato qui.
@@ -26,6 +26,8 @@ inglese. Le pagine qui sotto sono il riferimento completo.
 | [Comandi](comandi.md) | Riferimento completo dei comandi slash |
 | [Moderazione](moderazione.md) | Sanzioni, durate, escalation dei warn, cronologia |
 | [Automod](automod.md) | Anti-flood, anti-pubblicità, anti-insulti |
+| [Sistema di livelli](livelli.md) | XP, curva dei livelli, premi, classifica |
+| [Bump ME](bump.md) | Sponsorizza il tuo server nella descrizione del bot |
 | [Canali vocali temporanei](canali-vocali.md) | Template dei canali e stanze private |
 | [Ticket](ticket.md) | Pannelli, moduli, team, transcript |
 | [Log](log.md) | Categorie di log e instradamento sui canali |
@@ -52,7 +54,15 @@ dal comando `/voice`.
 utente/support/admin separati, presa in carico e rilascio, e transcript HTML alla
 chiusura.
 
-**Log** — otto categorie di log indipendenti, ognuna con il proprio canale di
+**Livelli** — i membri guadagnano XP scrivendo e stando in vocale, sui canali che
+scegli tu. Il costo di ogni livello è una formula che scrivi tu, e ogni livello può
+assegnare un ruolo o una gratifica testuale. `/level` e `/userinfo` mostrano a che
+punto è ciascuno.
+
+**Bump ME** — `/bump` mette nome e invito del tuo server nella descrizione Discord del
+bot per 12-24 ore, un server per volta su tutto il bot.
+
+**Log** — undici categorie di log indipendenti, ognuna con il proprio canale di
 destinazione, colore dell'embed e thumbnail.
 
 **Localizzazione** — il bot e la dashboard sono disponibili in italiano (`it-IT`) e

@@ -234,6 +234,11 @@ concordano — un utente bannato su Discord senza una sanzione registrata, un ru
 rimasto addosso, o una sanzione di timeout che Discord non sta più applicando — così
 puoi sistemarli invece di lasciarli andare alla deriva.
 
+Sui server dove gira il [sistema di livelli](livelli.md) l'embed porta anche un campo
+**Livello**: il livello, gli XP totali, la posizione e gli XP che mancano al livello
+successivo. Dove il sistema è spento il campo non compare affatto, invece di mostrare
+una scala vuota.
+
 Il colore segue i colori per sanzione configurati in dashboard, scegliendo quello
 della sanzione più grave ancora attiva sull'utente.
 
@@ -342,6 +347,36 @@ Vedi [Ticket](ticket.md) per come funzionano pannelli, team e transcript.
 
 ---
 
+## Livelli e promozione
+
+### `/level`
+
+La scheda livello di un membro: il livello sull'ultimo, gli XP totali, la posizione sul
+server e una barra di avanzamento verso il livello successivo con gli XP che mancano.
+Il piè di pagina conta i messaggi e i minuti in vocale che ce l'hanno portato.
+
+| Opzione | Obbligatoria | Descrizione |
+|---|---|---|
+| `user` | no | Il membro da consultare. Se manca risponde su chi ha eseguito il comando |
+
+Sui server dove il sistema di livelli è spento risponde che è disattivato, e rifiuta i
+bot, che non guadagnano mai XP. Vedi [Sistema di livelli](livelli.md).
+
+### `/bump`
+
+Mette questo server nella **descrizione Discord del bot** — nome e link di invito — per
+una finestra estratta a caso tra 12 e 24 ore.
+
+Non ha opzioni: cosa viene scritto si imposta una volta dalla dashboard.
+
+Su tutto il bot può occupare lo slot **un server per volta**. Mentre è occupato il
+comando risponde dicendo quando si libera. Eseguirlo può anche pagare XP, se la
+dashboard imposta un premio e il sistema di livelli è attivo.
+
+Richiede il piano **Basic**. Vedi [Bump ME](bump.md).
+
+---
+
 ## Utilità
 
 ### `/ping`
@@ -385,6 +420,8 @@ di ruoli, al membro servono il permesso **e** uno dei ruoli. Impostare il permes
 | `/bulkdelete` | sì | Gestire i messaggi |
 | `/channel-templates` | sì | Gestire i canali |
 | `/voice` | sì | nessuno — tutti |
+| `/level` | sì | nessuno — tutti |
+| `/bump` | sì | nessuno — tutti |
 | `/ticket` | sì | nessuno — tutti |
 | `/ping` | **no** | nessuno — tutti |
 
