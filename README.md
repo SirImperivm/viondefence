@@ -16,7 +16,7 @@ instead of a wall of slash commands.
 
 ## Documentation
 
-New here? Start with the **[Wiki](https://github.com/SirImperivm/binary-defence/wiki)** — step-by-step setup guides in English and
+New here? Start with the **[Wiki](https://github.com/SirImperivm/viondefence/wiki)** — step-by-step setup guides in English and
 Italian. The pages below are the full reference.
 
 | Guide | What's inside |

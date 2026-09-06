@@ -16,7 +16,7 @@ dashboard web invece che da una sfilza di comandi slash.
 
 ## Documentazione
 
-Sei appena arrivato? Parti dalla **[Wiki](https://github.com/SirImperivm/binary-defence/wiki)** — guide passo passo in italiano e
+Sei appena arrivato? Parti dalla **[Wiki](https://github.com/SirImperivm/viondefence/wiki)** — guide passo passo in italiano e
 inglese. Le pagine qui sotto sono il riferimento completo.
 
 | Guida | Contenuto |

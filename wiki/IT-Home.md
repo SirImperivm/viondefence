@@ -6,7 +6,7 @@ Guide passo passo per installare e configurare VionDefence sul tuo server Discor
 
 > Cerchi il riferimento completo — ogni opzione di ogni comando, ogni impostazione, ogni
 > valore predefinito? Sta nella
-> [documentazione di riferimento](https://github.com/SirImperivm/binary-defence/tree/master/docs/it).
+> [documentazione di riferimento](https://github.com/SirImperivm/viondefence/tree/master/docs/it).
 > Questa wiki è la guida pratica; la documentazione è il manuale.
 
 ---
@@ -56,4 +56,4 @@ Tutto il resto è opzionale e può aspettare finché non ti serve.
 
 - Server Discord di supporto ed email: https://viondefence.com/contacts
 - Qualcosa di sbagliato in questa wiki? Apri una issue sulla
-  [repository](https://github.com/SirImperivm/binary-defence/issues).
+  [repository](https://github.com/SirImperivm/viondefence/issues).

@@ -5,7 +5,7 @@
 Step-by-step guides for setting up and running VionDefence on your Discord server.
 
 > Looking for the exhaustive reference — every command option, every setting, every
-> default? That lives in the [reference documentation](https://github.com/SirImperivm/binary-defence/tree/master/docs).
+> default? That lives in the [reference documentation](https://github.com/SirImperivm/viondefence/tree/master/docs).
 > This wiki is the walkthrough; the docs are the manual.
 
 ---
@@ -55,4 +55,4 @@ Everything else is optional and can wait until you need it.
 
 - Discord support server and contact email: https://viondefence.com/contacts
 - Something wrong in this wiki? Open an issue on the
-  [repository](https://github.com/SirImperivm/binary-defence/issues).
+  [repository](https://github.com/SirImperivm/viondefence/issues).

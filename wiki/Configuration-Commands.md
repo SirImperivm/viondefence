@@ -52,7 +52,7 @@ operate only on the member's own voice room or on the ticket channel they are st
 in.
 
 Full option-by-option reference for every command:
-[docs/commands.md](https://github.com/SirImperivm/binary-defence/blob/master/docs/commands.md).
+[docs/commands.md](https://github.com/SirImperivm/viondefence/blob/master/docs/commands.md).
 
 ---
 

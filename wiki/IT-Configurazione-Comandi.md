@@ -53,7 +53,7 @@ agiscono solo sulla stanza vocale che il membro possiede o sul canale ticket in 
 trova.
 
 Riferimento completo, opzione per opzione:
-[docs/it/comandi.md](https://github.com/SirImperivm/binary-defence/blob/master/docs/it/comandi.md).
+[docs/it/comandi.md](https://github.com/SirImperivm/viondefence/blob/master/docs/it/comandi.md).
 
 ---
 
