@@ -91,6 +91,16 @@ The DM can be turned off, in which case the message is removed silently.
 
 Requires the **Pro** plan.
 
+### Counters
+
+Turns the member counter channels on and off, sets where they sit, how often they
+refresh and what their names read. The staff counter is added here too, together with
+the roles that count as staff.
+
+Full detail: [Member counters](counters.md).
+
+Included from the **Free** plan.
+
 ### Levels
 
 The XP and level system: how much a message and a minute in voice are worth, which

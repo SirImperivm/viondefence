@@ -92,6 +92,16 @@ rimosso in silenzio.
 
 Richiede il piano **Pro**.
 
+### Contatori
+
+Attiva e disattiva i canali contatore, decide dove stanno, ogni quanto si aggiornano e
+cosa c'è scritto nei loro nomi. Da qui si aggiunge anche il contatore staff, insieme ai
+ruoli che contano come staff.
+
+Dettagli completi: [Contatori dei membri](contatori.md).
+
+Incluso dal piano **Free**.
+
 ### Livelli
 
 Il sistema di XP e livelli: quanto valgono un messaggio e un minuto in vocale, quali

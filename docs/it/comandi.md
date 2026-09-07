@@ -362,6 +362,15 @@ Il piè di pagina conta i messaggi e i minuti in vocale che ce l'hanno portato.
 Sui server dove il sistema di livelli è spento risponde che è disattivato, e rifiuta i
 bot, che non guadagnano mai XP. Vedi [Sistema di livelli](livelli.md).
 
+### `/server stats`
+
+Conteggio di membri, bot e staff di questo server, come risposta effimera che vedi solo
+tu. Ricalcola sul momento invece di leggere i canali contatore, e aggiunge quanti di
+quei membri e di quello staff sono **online**.
+
+Non ha opzioni. Funziona con o senza i canali contatore attivi — vedi
+[Contatori dei membri](contatori.md).
+
 ### `/bump`
 
 Mette questo server nella **descrizione Discord del bot** — nome e link di invito — per
@@ -421,6 +430,7 @@ di ruoli, al membro servono il permesso **e** uno dei ruoli. Impostare il permes
 | `/channel-templates` | sì | Gestire i canali |
 | `/voice` | sì | nessuno — tutti |
 | `/level` | sì | nessuno — tutti |
+| `/server` | sì | nessuno — tutti |
 | `/bump` | sì | nessuno — tutti |
 | `/ticket` | sì | nessuno — tutti |
 | `/ping` | **no** | nessuno — tutti |

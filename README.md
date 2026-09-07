@@ -26,6 +26,7 @@ Italian. The pages below are the full reference.
 | [Commands](docs/commands.md) | Full slash command reference |
 | [Moderation](docs/moderation.md) | Sanctions, durations, warn escalation, history |
 | [Automod](docs/automod.md) | Anti-flood, anti-advertising, anti-insult |
+| [Member counters](docs/counters.md) | Live member, bot and staff counts as channels |
 | [Level system](docs/levels.md) | XP, the level curve, rewards, leaderboard |
 | [Bump ME](docs/bump.md) | Sponsor your server in the bot description |
 | [Temporary voice channels](docs/voice-channels.md) | Channel templates and private rooms |
@@ -52,6 +53,10 @@ their room (name, user limit, privacy, trust/kick/ban) from a button panel or th
 
 **Tickets** — configurable ticket panels with custom open forms, separate
 user/support/admin teams, claim and release, and HTML transcripts on close.
+
+**Member counters** — voice channels nobody can join that show how many members, bots
+and staff the server has, refreshed on their own. `/server stats` adds how many of them
+are online right now.
 
 **Levels** — members earn XP by writing and by sitting in voice, on the channels you
 choose. The cost of each level is a formula you write, and each level can hand out a

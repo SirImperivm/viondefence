@@ -33,6 +33,7 @@ per ogni sezione della barra laterale.
 | Moderazione | **[Moderazione](IT-Configurazione-Moderazione)** | Sanzioni, avvisi in DM, escalation dei warn, colori degli embed |
 | Automod | **[Automod](IT-Configurazione-Automod)** | Filtrare automaticamente spam, link e insulti |
 | Log | **[Log](IT-Configurazione-Log)** | Un registro scritto di tutto quello che fa il bot |
+| Contatori | **[Contatori](IT-Configurazione-Contatori)** | Mostrare come canali il conteggio live di membri, bot e staff |
 | Livelli | **[Livelli](IT-Configurazione-Livelli)** | Far guadagnare XP ai membri e farli salire di livello partecipando |
 | Bump ME | **[Bump ME](IT-Configurazione-Bump)** | Pubblicizzare il tuo server nella descrizione del bot |
 

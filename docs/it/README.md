@@ -26,6 +26,7 @@ inglese. Le pagine qui sotto sono il riferimento completo.
 | [Comandi](comandi.md) | Riferimento completo dei comandi slash |
 | [Moderazione](moderazione.md) | Sanzioni, durate, escalation dei warn, cronologia |
 | [Automod](automod.md) | Anti-flood, anti-pubblicità, anti-insulti |
+| [Contatori dei membri](contatori.md) | Conteggio live di membri, bot e staff come canali |
 | [Sistema di livelli](livelli.md) | XP, curva dei livelli, premi, classifica |
 | [Bump ME](bump.md) | Sponsorizza il tuo server nella descrizione del bot |
 | [Canali vocali temporanei](canali-vocali.md) | Template dei canali e stanze private |
@@ -53,6 +54,10 @@ dal comando `/voice`.
 **Ticket** — pannelli configurabili con moduli di apertura personalizzati, team
 utente/support/admin separati, presa in carico e rilascio, e transcript HTML alla
 chiusura.
+
+**Contatori dei membri** — canali vocali in cui nessuno entra, che mostrano quanti
+membri, bot e staff ha il server, aggiornati da soli. `/server stats` aggiunge quanti di
+loro sono online in questo momento.
 
 **Livelli** — i membri guadagnano XP scrivendo e stando in vocale, sui canali che
 scegli tu. Il costo di ogni livello è una formula che scrivi tu, e ogni livello può

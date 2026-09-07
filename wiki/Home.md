@@ -32,6 +32,7 @@ section of the sidebar.
 | Moderazione | **[Moderation](Configuration-Moderation)** | Sanctions, DM notices, warn escalation, embed colors |
 | Automod | **[Automod](Configuration-Automod)** | Automatic filtering of spam, links and insults |
 | Log | **[Logs](Configuration-Logs)** | A written record of everything the bot does |
+| Contatori | **[Counters](Configuration-Counters)** | Live member, bot and staff counts shown as channels |
 | Livelli | **[Levels](Configuration-Levels)** | Members to earn XP and climb levels for taking part |
 | Bump ME | **[Bump ME](Configuration-Bump)** | To advertise your server in the bot's own description |
 

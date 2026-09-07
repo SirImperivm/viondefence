@@ -357,6 +357,15 @@ missing. The footer counts the messages and the voice minutes that got them ther
 Answers that the system is disabled on servers where the level system is off, and
 refuses bots, which never earn XP. See [Level system](levels.md).
 
+### `/server stats`
+
+Member, bot and staff counts for this server, as an ephemeral reply only you see.
+Recalculates on the spot rather than reading the counter channels, and adds how many
+of those members and staff are **online**.
+
+Takes no options. Works with or without the counter channels turned on — see
+[Member counters](counters.md).
+
 ### `/bump`
 
 Puts this server in the **bot's own Discord description** — name and invite link — for
@@ -415,6 +424,7 @@ member needs the permission **and** one of the roles. Setting the permission to
 | `/channel-templates` | yes | Manage Channels |
 | `/voice` | yes | none — everyone |
 | `/level` | yes | none — everyone |
+| `/server` | yes | none — everyone |
 | `/bump` | yes | none — everyone |
 | `/ticket` | yes | none — everyone |
 | `/ping` | **no** | none — everyone |

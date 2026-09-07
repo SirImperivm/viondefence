@@ -17,6 +17,7 @@
 - [Moderation](Configuration-Moderation)
 - [Automod](Configuration-Automod)
 - [Logs](Configuration-Logs)
+- [Counters](Configuration-Counters)
 - [Levels](Configuration-Levels)
 - [Bump ME](Configuration-Bump)
 
@@ -37,5 +38,6 @@
 - [Moderazione](IT-Configurazione-Moderazione)
 - [Automod](IT-Configurazione-Automod)
 - [Log](IT-Configurazione-Log)
+- [Contatori](IT-Configurazione-Contatori)
 - [Livelli](IT-Configurazione-Livelli)
 - [Bump ME](IT-Configurazione-Bump)
