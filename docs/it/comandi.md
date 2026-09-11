@@ -378,7 +378,8 @@ una finestra estratta a caso tra 12 e 24 ore.
 
 Non ha opzioni: cosa viene scritto si imposta una volta dalla dashboard.
 
-Su tutto il bot può occupare lo slot **un server per volta**. Mentre è occupato il
+Può occupare lo slot **un server per volta per regione**: la descrizione è quella
+del bot della tua regione. Mentre è occupato il
 comando risponde dicendo quando si libera. Eseguirlo può anche pagare XP, se la
 dashboard imposta un premio e il sistema di livelli è attivo.
 

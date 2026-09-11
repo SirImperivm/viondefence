@@ -373,7 +373,8 @@ a window drawn at random between 12 and 24 hours.
 
 Takes no options: what gets written is set once in the dashboard.
 
-Only **one server at a time** across the whole bot can hold the slot. While it is
+Only **one server at a time per region** can hold the slot: the description belongs
+to the bot of that region. While it is
 taken, the command answers with when it frees up. Running it can also pay XP, if the
 dashboard sets a reward and the level system is on.
 

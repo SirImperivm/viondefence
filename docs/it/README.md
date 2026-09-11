@@ -65,7 +65,7 @@ assegnare un ruolo o una gratifica testuale. `/level` e `/userinfo` mostrano a c
 punto è ciascuno.
 
 **Bump ME** — `/bump` mette nome e invito del tuo server nella descrizione Discord del
-bot per 12-24 ore, un server per volta su tutto il bot.
+bot per 12-24 ore, un server per volta nella tua regione.
 
 **Log** — undici categorie di log indipendenti, ognuna con il proprio canale di
 destinazione, colore dell'embed e thumbnail.

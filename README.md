@@ -63,7 +63,7 @@ choose. The cost of each level is a formula you write, and each level can hand o
 role or a written reward. `/level` and `/userinfo` show where anyone stands.
 
 **Bump ME** — `/bump` puts your server name and invite into the bot's own Discord
-description for 12 to 24 hours, one server at a time across the whole bot.
+description for 12 to 24 hours, one server at a time per region.
 
 **Logging** — eleven independent log categories, each with its own destination
 channel, embed color and thumbnail.

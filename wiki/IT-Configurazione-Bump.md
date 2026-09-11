@@ -121,7 +121,7 @@ sotto Basic.
 **`/bump` dice che non c'è un link di invito.** Il campo del link è vuoto. Visto che la
 funzione non si può attivare senza, di solito vuol dire che è stato svuotato dopo.
 
-**"È sponsorizzato un altro server".** Funziona come previsto: uno slot per tutto il bot.
+**"È sponsorizzato un altro server".** Funziona come previsto: uno slot per regione.
 La risposta dice quando si libera.
 
 **Il bump è sparito.** Il bot si è riavviato. Lo slot è di nuovo libero: esegui `/bump`

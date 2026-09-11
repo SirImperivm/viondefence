@@ -102,6 +102,24 @@ Dettagli completi: [Contatori dei membri](contatori.md).
 
 Incluso dal piano **Free**.
 
+### Selettore di ruoli
+
+Pubblica un messaggio con un menu a tendina dal quale i membri si danno e si tolgono i
+ruoli che decidi tu. Quello che selezionano lo ottengono, quello che lasciano fuori lo
+perdono — ma solo fra i ruoli di quel selettore: il resto di ciò che hanno non si tocca.
+
+Ogni ruolo può indicare uno **spacer**: un ruolo categoria che arriva da solo quando il
+membro prende uno dei ruoli che lo indicano, e se ne va quando perde l'ultimo. Gli
+spacer sono quei ruoli vuoti che i server usano per raggruppare la lista — `── Giochi ──`
+sopra ai ruoli dei giochi — e farli gestire al bot tiene la lista in ordine senza che
+nessuno debba curarla a mano.
+
+Un menu a tendina di Discord contiene 25 ruoli: per averne di più si crea un secondo
+selettore. Il ruolo del bot deve stare sopra a tutti quelli che assegna, e la dashboard
+lo segnala su ogni ruolo fuori dalla sua portata.
+
+Incluso dal piano **Free**, che ne consente 2 — 3 con Basic, 5 con Pro, 7 con Ultimate.
+
 ### Livelli
 
 Il sistema di XP e livelli: quanto valgono un messaggio e un minuto in vocale, quali

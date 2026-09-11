@@ -101,6 +101,25 @@ Full detail: [Member counters](counters.md).
 
 Included from the **Free** plan.
 
+### Role selector
+
+Publishes a message with a dropdown from which members give themselves and drop the
+roles you decide. What they select they get; what they leave out they lose — only
+among that selector's roles, the rest of what they have is untouched.
+
+Each role can name a **spacer**: a category role that arrives on its own when the
+member takes one of the roles that name it, and leaves when they lose the last one.
+Spacers are the empty roles servers use to group the list — `── Games ──` above the
+game roles — and having the bot manage them keeps the list tidy without anyone
+maintaining it by hand.
+
+A Discord dropdown holds 25 roles: for more, create a second selector. The bot's role
+has to sit above every role it hands out, and the dashboard says so on any role that
+is out of its reach.
+
+Included from the **Free** plan, which allows 2 selectors — 3 on Basic, 5 on Pro, 7 on
+Ultimate.
+
 ### Levels
 
 The XP and level system: how much a message and a minute in voice are worth, which
@@ -122,7 +141,7 @@ configures how the bot advertises it everywhere else.
 
 `/bump` writes your server name and invite into the **bot's own Discord description**
 for a window drawn at random between 12 and 24 hours. Only one server at a time can
-hold it. The panel shows whether the slot is free, both versions of the description as
+hold it, within your region. The panel shows whether the slot is free, both versions of the description as
 they will read, and the last ten bumps of your server.
 
 Full detail: [Bump ME](bump.md).
